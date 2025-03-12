@@ -12,17 +12,17 @@ An Azure Disk attached to the VM.
 Steps to Complete the Assignment
 ## 1. Create a Resource Group
 Go to the Azure Portal.
-Click on Resource Groups and create a new group named MyResourceGroup.
+Click on Resource Groups and create a new group named MyRG1.
 
 ## 2. Set Up a Virtual Network
-In the Azure Portal, create a Virtual Network named MyVNet.
+In the Azure Portal, create a Virtual Network named MyVNet1.
 Use the default subnet settings.
 
 ## 3. Deploy a Windows Virtual Machine
 Create a Windows Server 2022 Datacenter VM.
 Choose the B1s size (free tier eligible).
 Assign a Public IP for RDP access.
-Place the VM in the MyVNet Virtual Network.
+Place the VM in the MyVNet1 Virtual Network.
 
 ## 4. Attach a Data Disk to the VM
 Go to the VM's Disks section.
