@@ -1,43 +1,52 @@
-# Cloud_Module_Week_12
+# Azure Virtual Machine Setup Assignment
+This project is about creating a basic Azure infrastructure using a free Azure account. The infrastructure includes:
 
-![image](https://github.com/user-attachments/assets/0faf7cce-ca8a-4995-a692-baf3afb09fd7)
+A Resource Group to organize all resources.
 
-## Assignment: Set Up an Azure Virtual Machine with a Free Account
+A Virtual Network with a default subnet.
 
-## Objective
+A Windows Server Virtual Machine with a Public IP for RDP access.
 
-#### Create a basic Azure infrastructure using a free Azure account. This infrastructure should include:
+An Azure Disk attached to the VM.
 
-* An Azure Virtual Machine (Windows Server)
-* A Public IP Address for RDP access
-* A Virtual Network with a default subnet
-* An Azure Disk attached to the VM
-* All resources grouped under a single Resource Group
+Steps to Complete the Assignment
+## 1. Create a Resource Group
+Go to the Azure Portal.
+Click on Resource Groups and create a new group named MyRG1.
 
-## Steps to Complete
+## 2. Set Up a Virtual Network
+In the Azure Portal, create a Virtual Network named MyVNet1.
+Use the default subnet settings.
 
-1-  Create a Resource Group
-* Use the Azure Portal to create a new Resource Group.
+## 3. Deploy a Windows Virtual Machine
+Create a Windows Server 2022 Datacenter VM.
+Choose the B1s size (free tier eligible).
+Assign a Public IP for RDP access.
+Place the VM in the MyVNet1 Virtual Network.
 
-2- Set Up a Virtual Network
-* Create a Virtual Network with a default subnet.
+## 4. Attach a Data Disk to the VM
+Go to the VM's Disks section.
+Add a new 32 GB Standard HDD disk named MyDataDisk.
 
-3- Deploy a Windows Virtual Machine
-* Choose a free-tier eligible Windows Server.
-* Assign a Public IP for RDP access.
-* Place the VM in the previously created Virtual Network.
+## 5. Connect to the VM
+Use the Public IP of the VM.
+Open Remote Desktop Connection on your computer.
+Enter the IP, username, and password to connect.
 
-4- Attach a Data Disk to the VM
-* Add an Azure Disk to the created Virtual Machine.
+# Screenshots
+Here are some screenshots of the setup:
 
-5- Connect to the VM
-* Use Remote Desktop Protocol (RDP) to connect to the VM using the public IP.
-  
-6- Optional: Clean Up Resources
-* Delete the Resource Group after completion to avoid unnecessary charges.
-  
-## Submission Instructions
+Resource Group Creation
+![enter image description here](https://i.imgur.com/69hPRPi.png)
 
-* Create a GitHub repository named azure-vm-assignment.
-* Include a brief README with a summary of your setup and screenshots.
-* Share the GitHub repository link for review.
+Virtual Network Setup
+![enter image description here](https://i.imgur.com/ClygRS6.png)
+
+Windows VM Creation
+![enter image description here](https://i.imgur.com/w7Jobnw.png)
+
+Data Disk Attachment
+![enter image description here](https://i.imgur.com/JR03uoV.png)
+
+RDP Connection
+![enter image description here](https://i.imgur.com/quE0Zcs.png)
