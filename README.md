@@ -135,3 +135,21 @@ virtual machine
   * Problems you encountered and their solutions
 * Submit your LinkedIn post in the specified format by the specified
 date.
+
+### 8-Clean Up Resources:
+* After completing the assignment, delete the resources you created
+(virtual machine, resource group, storage account, etc.) to avoid
+Azure costs.
+
+### 9-Additional Notes:
+* This assignment is a basic introduction to creating and managing
+virtual machines, and using Azure File Share on the Azure platform.
+* Students can use Azure documentation and other resources during
+the assignment.
+* Students can share any problems they encounter during the
+assignment with the teaching staff.
+* This updated assignment text includes the necessary details for
+students to complete the Azure VM and Azure File Share
+assignment, and to share it via GitHub and LinkedIn.
+* This text can be modified according to the learning levels of the
+students and the purpose of the assignment.
