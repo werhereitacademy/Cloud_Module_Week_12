@@ -97,9 +97,41 @@ PC (Windows or Linux).
 
 ### 6-Tasks on the Virtual Machine (Optional!):
 ###### Windows:
-** Install the IIS web server and publish a website.
-** Install SQL Server Express and create a database.
-** Create, read, and delete files on the Azure File Share you
+  * Install the IIS web server and publish a website.
+  * Install SQL Server Express and create a database.
+  * Create, read, and delete files on the Azure File Share you
+created.
+###### Linux:
+  * Install the Apache web server and publish a website.
+  * Install the MySQL database server and create a database
+  * Configure Samba file sharing.
+  * Create, read, and delete files on the Azure File Share you
 created.
 
-###### Linux:
+### 7-Assignment Submission and Sharing:
+* After completing your assignment, follow the steps below to
+submit and share it:
+###### GitHub:
+  * Create a GitHub repository containing your assignment
+report and any code.
+  * Set the repository to public.
+  * Add the repository link to your LinkedIn post.
+###### LinkedIn:
+  * Make a post on your LinkedIn profile including your
+assignment and the GitHub repository link.
+  * Use relevant tags in your post (e.g., #Azure,
+#VirtualMachine, #CloudComputing).
+  * Refer to your trainer's LinkedIn account.
+* Include the following information in your assignment report:
+  * Student Name Surname
+  * Detailed Description of Assignment Steps (can be supported
+with screenshots)
+  * Description and results of the tasks you performed on the
+virtual machine
+  * Azure File Share creation and usage steps
+  * Your screenshot
+  * GitHub repository link
+  * LinkedIn sharing link (optional)
+  * Problems you encountered and their solutions
+* Submit your LinkedIn post in the specified format by the specified
+date.
