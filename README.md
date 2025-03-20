@@ -46,17 +46,28 @@ the virtual machine.
 - Password: Set a strong password for the virtual machine.
 
 
-4- Attach a Data Disk to the VM
-* Add an Azure Disk to the created Virtual Machine.
+##### Disks:
+* You can use the default disk settings. Premium SSD is
+recommended for the operating system disk.
 
-5- Connect to the VM
-* Use Remote Desktop Protocol (RDP) to connect to the VM using the public IP.
-  
-6- Optional: Clean Up Resources
-* Delete the Resource Group after completion to avoid unnecessary charges.
-  
-## Submission Instructions
+##### Networking:
 
-* Create a GitHub repository named azure-vm-assignment.
-* Include a brief README with a summary of your setup and screenshots.
-* Share the GitHub repository link for review.
+* You can use a default virtual network and subnet.
+* Assign a public IP address to the virtual machine to access it.
+* Configure the necessary network security group rules to allow
+RDP (Windows) or SSH (Linux) access to the virtual machine.
+
+##### Management:
+* You can configure monitoring and diagnostics settings.
+
+#####  Advanced:
+* If necessary, you can configure extensions or other advanced
+settings.
+
+##### Tags:
+* You can assign tags to the virtual machine (e.g.,
+"StudentNameSurname", "Assignment").
+
+##### Review and create:
+*Review the virtual machine settings and click the "Create"
+button.
